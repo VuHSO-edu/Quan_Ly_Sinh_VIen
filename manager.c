@@ -150,4 +150,13 @@ int main() {
                 timKiemSinhVien(danhSach, soLuong, keyword);
                 break;
             case 5:
-                sapXep
+                sapXepTheoNamSinh(danhSach, soLuong);
+                break;
+            case 6:
+                luuFile(danhSach, soLuong, "danhsachsinhvien.txt");
+                break;
+        }
+    } while (choice != 0);
+
+    return 0;
+}
